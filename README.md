@@ -8,7 +8,7 @@ That being said, feel free to include it in your projects.
 ## Prerequisites
 It does not require any additional package, you only need to have Julia v1.5.
 
-# How do I install it? Why it does not work with pkg?
+## How do I install it? Why it does not work with pkg?
 Being super simple, this is not even a real package, it's just a module that you need to include.
 
 Using it is very simple:
@@ -26,7 +26,7 @@ Now you can simply call the function "StiffenedGas.main( ... )" to calculate wha
 
 By the way, if you feel like this should really be a package, feel free to contact me or send me a pull request.
 
-# How do I use this?
+## How do I use this?
 Again, very simple. Let's say you need to calculate the temperature T of a liquid of your choise, that we will name my_liquid. We are interested in what happens if
 - pressure is p = 1e5 Pa
 - density  is rho = 1000 kg/m^3. 
