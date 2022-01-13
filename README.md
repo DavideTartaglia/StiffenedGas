@@ -24,7 +24,7 @@ Using it is very simple:
 
    Now you can simply call the function "StiffenedGas.main( ... )" to calculate what you wish. It will return the selected desired quantity.
 
-* If you are more of a jupyter-notebook type, you can find the notebook version in the "jupyter" folder. You can find the complete script in "jupyter/StiffenedGas.pyng" or just chunks of the code in the other notebooks. Just download this folder if you are uniquely interested in the notebook version. On the contrary, if you only need a .jl version, you can simply delete this folder if it bothers you.
+* If you are more of a jupyter-notebook type, you can find the notebook version in the "jupyter" folder. You can find the complete script in "jupyter/StiffenedGas.ipynb" or just chunks of the code in the other notebooks. Just download this folder if you are uniquely interested in the notebook version. On the contrary, if you only need a .jl version, you can simply delete this folder if it bothers you.
 
 By the way, if you feel like this should really be a package, feel free to contact me or send me a pull request.
 
