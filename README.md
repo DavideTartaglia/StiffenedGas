@@ -49,10 +49,10 @@ Parameters:
 8. materialDatabase: you usually don't need to fill this in from a user perspective. (OPTIONAL)
 
 So just type in your code:
-`T = StiffenedGas.main("temperature", 1e5, 1e3, "my_liquid", 1.2, 8e9, 4800.)```
+`T = StiffenedGas.main("temperature", 1e5, 1e3, "my_liquid", 1.2, 8e9, 4800.)`
 
 If you instead need the pressure, you need to put the temperature (in K) as parameter 2.:
-`p = StiffenedGas.main("pressure", 315.6, 1e3, "my_liquid", 1.2, 8e9, 4800.)``
+`p = StiffenedGas.main("pressure", 315.6, 1e3, "my_liquid", 1.2, 8e9, 4800.)`
 
 If you need the density from pressure and temperature, just put the temperature as parameter 2. and the pressure as parameter 3.:
 `rho = StiffenedGas.main("density", 315.6, 1e5, "my_liquid", 1.2, 8e9, 4800.)`
