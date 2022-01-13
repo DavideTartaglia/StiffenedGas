@@ -5,7 +5,7 @@ Please, do not consider the stiffened gas law to be the most physical representa
 
 That being said, feel free to include it in your projects.
 
-# Prerequisites
+## Prerequisites
 It does not require any additional package, you only need to have Julia v1.5.
 
 # How do I install it? Why it does not work with pkg?
