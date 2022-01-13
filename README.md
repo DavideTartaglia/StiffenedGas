@@ -14,7 +14,7 @@ Being super simple, this is not even a real package, it's just a module that you
 Using it is very simple:
 * If you are using a julia editor (e.g., vscode), or simply running julia from the command line, you just need to copy this repository in your project directory. Afterwords, add to the file in which you plan to use calculate a variable using the stiffened gas EoS the following lines:
 
-`include("PATH_TO_THE_StiffenedGas.jl_FILE")
+`include("PATH_TO_THE_StiffenedGas.jl_FILE")`
 replacing 'PATH_TO_THE_StiffenedGas.jl_FILE' with the actual directory of the StiffenedGas.jl file (directory relative to your project file)
 `import .StiffenedGas
 `using .StiffenedGas
@@ -27,7 +27,7 @@ Now you can simply call the function "StiffenedGas.main( ... )" to calculate wha
 By the way, if you feel like this should really be a package, feel free to contact me or send me a pull request.
 
 ## How do I use this?
-Again, very simple. Let's say you need to calculate the temperature T of a liquid of your choise, that we will name my_liquid. We are interested in what happens if
+Again, very simple. Let's say you need to calculate the temperature T (in K) of a liquid of your choise, that we will name my_liquid. We are interested in what happens if
 - pressure is p = 1e5 Pa
 - density  is rho = 1000 kg/m^3. 
 Furthermore, my_liquid has
