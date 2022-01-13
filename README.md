@@ -15,10 +15,11 @@ Using it is very simple:
 * If you are using a julia editor (e.g., vscode), or simply running julia from the command line, you just need to copy this repository in your project directory. Afterwords, add to the file in which you plan to use calculate a variable using the stiffened gas EoS the following lines:
 
 `include("PATH_TO_THE_StiffenedGas.jl_FILE")`
-replacing 'PATH_TO_THE_StiffenedGas.jl_FILE' with the actual directory of the StiffenedGas.jl file (directory relative to your project file)
-`import .StiffenedGas
-`using .StiffenedGas
-ATTENTION: DO NOT FORGET THE POINT BEFORE StiffenedGas
+replacing PATH_TO_THE_StiffenedGas.jl_FILE with the actual directory of the StiffenedGas.jl file (directory relative to your project file).
+`import .StiffenedGas'
+`using .StiffenedGas'
+
+ATTENTION: PLEASE DO NOT FORGET THE POINT BEFORE StiffenedGas
 
 Now you can simply call the function "StiffenedGas.main( ... )" to calculate what you wish. It will return the selected desired quantity.
 
