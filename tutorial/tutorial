@@ -1,0 +1,7 @@
+include("../StiffenedGas.jl")
+
+import .StiffenedGas
+
+using .StiffenedGas
+
+StiffenedGas.main("temperature", 1.01325e5, 1000, "liquidwater", 2.35, 1e9, 4267)
