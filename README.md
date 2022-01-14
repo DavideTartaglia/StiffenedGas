@@ -37,7 +37,7 @@ Furthermore, my_liquid has
 - pinf = 8e9 Pa
 - cp = 4800. J/kg/K.
 
-The StiffenedGas.main function returns a number (Float64) representing the temperature, if you set a few parameters that you need to fill according to the julia syntactic rules (i.e., func(param1, param2, ...)):
+The StiffenedGas.main function returns a number (Float64) representing the temperature, if you set a few parameters that you need to fill according to Julia syntactic rules (i.e., func(param1, param2, ...)):
 Parameters:
 1. desired quantity: a string with the name of the unknown, i.e., "temperature", "pressure", or "density"
 2. given quantity #1: since we are calculating the temperature, we set here the pressure (in pascals)
