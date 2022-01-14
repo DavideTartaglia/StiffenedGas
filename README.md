@@ -31,8 +31,9 @@ By the way, if you feel like this should really be a package, feel free to conta
 ## How do I use this?
 Again, very simple. Let's say you need to calculate the temperature T (in K) of a liquid of your choise, that we will name my_liquid. We are interested in what happens if
 - pressure is p = 1e5 Pa
-- density  is rho = 1000 kg/m^3. 
-Furthermore, my_liquid has
+- density  is rho = 1000 kg/m^3.
+ 
+and the properties of the liquid, my_liquid, are
 - gamma = 1.2
 - pinf = 8e9 Pa
 - cp = 4800. J/kg/K.
