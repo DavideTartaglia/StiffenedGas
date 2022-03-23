@@ -2,7 +2,7 @@ module StiffenedGas
 
 export main
 
-include("createMaterial.jl")
+include("createAMaterial.jl")
 
 import .createAMaterial as cr
 using .cr
