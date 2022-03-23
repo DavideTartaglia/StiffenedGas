@@ -8,7 +8,7 @@ That being said, feel free to include it in your projects.
 ## Prerequisites
 It does not require any additional package, you only need to have Julia v1.5.
 
-## How do I install it? Why does it not work with pkg?
+## How do I install it? Why is it not working with pkg?
 Being super simple, this is not even a real package, it's just a module that you need to include.
 
 Using it is very simple:
